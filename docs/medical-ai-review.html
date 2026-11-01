@@ -1,0 +1,268 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ant A-Fu · CSCW Major Revision Review</title><style>body{max-width:900px;margin:0 auto;padding:40px 25px;font-family:Arial,'PingFang SC',sans-serif;line-height:1.85;color:#222}pre{white-space:pre-wrap;word-break:break-word;font:inherit;font-size:14px}h1{font-size:26px;border-bottom:1px solid #ddd;padding-bottom:20px}.hint{color:#666;font-size:13px}</style></head><body><h1>Ant A-Fu · CSCW / PACM HCI 评审意见</h1><p class="hint">来自提供的真实审稿材料。包含英文原文、部分中文翻译以及作者记录的注释；请尊重未公开审稿资料的保密性。</p><pre>Dear Miss TIANKE HE,\
+\
+The Associate Editor in charge of your paper has recommended a decision of major revision. The required revisions are outlined in the comments from the Associate Editor handling your manuscript and from the reviewers. Your paper will need to undergo re-review following your submission of the revisions and accompanying cover letter. It is critically important to provide point-by-point responses to each of the comments raised. In the response document, please refer to the location in the manuscript where the revisions were made. Please note that submitting your revised manuscript does not guarantee eventual acceptance.\
+\
+If you decide that you would like to make major revisions, please return your revised paper by 05-Nov-2026.\
+\
+To submit your revision, log into https\://mc.manuscriptcentral.com/pacmhci and enter your Author Center, where you will find your manuscript title listed under &quot;Manuscripts with Decisions.&quot;  Under &quot;Action,&quot; click on &quot;Create a Revision.&quot; Your manuscript number has been appended to denote a revision. In your revised manuscript, please indicate all changes with color highlighting.\
+\
+Please also include a cover letter explaining the changes you have made.\
+\
+We look forward to receiving your revised paper.\
+\
+Sincerely,\
+Dr. Nicola Dell\
+Proceedings of the ACM on Human-Computer Interaction\
+\
+Associate Editor\
+Comments to the Author:\
+Based on interviews with 19 “lay users” (patients?) and 7 medical professionals in China, this paper explores how they have used Ant A-Fu, an AI-based medical diagnosis application, and how they validated its informatio, how they used it during clinical encounters, and how they handle conflicts due to the misalignment with clinicians’ judgments, etc. Based on the findings, the paper provides some design implications, to some degree, to support the design of AI-generated health information applications.\
+\
+Overall, reviewers found this paper as “well-written” (R2), with a “clear motivation” (R2), addressing an “important, timely, and relevant” topic for CSCW research (R1, R3), human-centred health informatics (R3), and aligned with “ongoing research within the broader HCI community” (R2). While reviewers recognise the potential of this paper to make a strong and valuable contribution to CSCW research and beyond, all reviewers raised many issues and concerns that need to be addressed before publication.\
+\
+All reviewer’s recommendations pointed out to major revisions. I agree with all the revisions requested and we are giving the authors the opportunity to restructure their paper to address the major revisions requested by the reviewers. Reviewers will look at the revised manuscript one more time but please be aware that considering the scope of the revisions this paper is unlikely to be accepted unless all or most of the reviewers concerns are addressed in the new version to improve the quality of the contribution to the CSCW community.\
+\
+Here, a summary of the major issues:\
+\
+a) Clarity in the presentation of the conceptual contribution, framing and related work:\
+It seems that the findings of this paper wander around many different concepts that are not properly defined and made it difficult for the reviewers to “identify a sufficiently coherent central idea” (R1) that connect all the different sections of the paper. While R1 listed many of these concepts (e.g., trust calibration, selective visibility, coordination work, accountability), R3 in particularly requested to explicitly define “epistemic authority” in relation to previous CSCW/HCI and social sciences research. R1 also suggested to expand the framing of the paper to consider the “broader sociotechnical phenomenon” that could help better articulate the contribution of this paper and connect all the different section with clearer “conceptual insights”.\
+\
+To help with this reframing, R1 also suggested changes in the related work and avoid high-level summaries of previous work and to engage more deeply and critically with the results “e.g., tensions, limitations, unresolved questions” from previous work. In addition, R2 also provides an example of missing previous work--see below.\
+\
+These changes will help to better highlight the research gap, novelty and the new knowledge contribution throughout the paper.  \
+\
+b) Clarity in the presentation of the research context, methods, analysis, and results:\
+One of the major issues highlighted both by R2 and R3 relates to the lack of details in description of the methods and results in relation to the involvement of the medical professionals. I agree that more details are needed regarding the procedures e.g., Were they asked the same or different questions? (R2). In addition, R3 asked to clearly distinguish in the findings what insights are coming from the different participants (experts and lay users) rather than using a generic “user” terminology. Also, R1 asked for clarifications regarding the patient’s role of these lay users. I agree and urge the authors to clarify this throughout the paper as the abstract mentions “patients” but the methods used the term “lay users” and the Table 1 does not show any characteristic that could describe their patient role. R1 also asked to make more explicitly the sampling strategy for participant recruitment.\
+\
+R2 also asked for including more details regarding the application and its features, which is basically the focus of this paper and highlighting this will provide more context for reviewers to properly assess the results of this paper. In addition, R3 also asked for additional details about the Chinese healthcare/institutional context that could help to understand the “selective visibility”.\
+\
+Another issue seems to be the codebook thematic analysis and the four identified themes. Both R2 and R3 found them difficult to understand as they were never defined nor explained. In addition, is it possible to include a reference to the method for analysis used and provide details regarding any validity process that was followed to ensure reliability or demonstrate rigour?  \
+\
+The presentation of the findings seems to be a problem as well. R1 asked to clear distinguish findings that relate to the health or medical context from the ones that reflect “general AI-use practices”. In addition, R1 found lack of “analytical depth and novelty” in the findings as some of them might have been reported in previous work. Also, R2 reported that Figure 3 and Figure 4 needs more elaboration as they seem disconnected from the results.\
+\
+R3 also asked for a clear statement regarding ethical approval for the study and to reflect on the limitations of the methods used. We urge the authors to made this clarification if any formal review process was in place.  \
+\
+\
+c) The need for a more in-depth discussion:\
+All reviewers asked for a more in-depth discussion in relation to previous work. Both R1 and R3 found the discussion very repetitive of the findings, with “limited conceptual development” (R1), highlighting the need for more critical discussion of the findings e.g., “paradox of authority versus accountability” (R3), and turning a bit down the big claims without properly discussion in relation to prior work nor grounded in the results to support them (R1). In addition, R1 found some of the design implications disconnected from the results as well as asked for more “substantive and actionable design implications”. It is also important to distinguish from general recommendations and recommendations coming from this study (R1).\
+\
+R2 also noticed how the discussion is “largely disconnected from existing infrastructure and prior work” within and beyond the Chinese context and provide a reference that should be considered e.g., Mana Samiee, Joel Wester, Rune Møberg Jacobsen, Michael Skovdal Rathleff, and Niels van Berkel. 2025. General Practitioners’ Perspectives on a Pre-Consultation Chatbot for Shared Decision-Making. In Proceedings of the 2025 ACM Designing Interactive Systems Conference (DIS &#x27;25). Association for Computing Machinery, New York, NY, USA, 3117–3131. https\://doi.org/10.1145/3715336.3735674\
+\
+\
+d) Other minor issues\
+All reviewers provided a list of minor issues that need to be addressed e.g., clarification of terms, etc.\
+\
+Please, read the reviews as reviewers have raised many questions and provided many suggestions that will hopefully help the revisions of this paper. We look forward to seeing a more complete and stronger version of this paper after addressing the reviewer’s concerns.\
+\
+Reviewer(s)&#x27; Comments to Author:
+
+### &amp;#x20; Reviewer: 1
+
+\
+Recommendation: Major Revision\
+\
+Comments:\
+(There are no comments.)\
+\
+Additional Questions:\
+By checking the box, you confirm that you are in compliance of ACM Peer Review Policy (https\://www\.acm.org/publications/policies/peer-review) and its accompanying FAQs (https\://www\.acm.org/publications/policies/peer-review-faq).: No\
+\
+Confidence: Confident (I am knowledgeable\
+in the area)\
+\
+\&lt;strong&gt;Review:\&lt;/strong&gt; Write your review of the submission here. Your review should address all or at least most of the questions below. In the past, strong CSCW reviews have often addressed these explicitly in the review itself: (1) What is the intended contribution of the paper? (2) How important / novel is the intended contribution of the paper? (3) How well does the paper execute this contribution? (4) How well does the paper execute this contribution? (5) Are there specific weaknesses that would undermine confidence in the paper’s claims or results? (6) Are there other strengths of the paper (apart from the identified contribution) that should be considered in evaluating it for CSCW? \&lt;p&gt;\
+\
+Additionally, if you select Minor Revision, Major Revision or Accept, please indicate the changes the authors should make as follows: (1) Accept: Clearly specify any small changes such as typos that should be taken care of before paper publication. (2) Minor Revision: Indicate the changes that the authors should make before their paper is published. Only the Associate Editor will re-review the minor revision. (3) Major Revision: Clearly specify the changes that the authors should make. If the authors make these changes, the paper should have a strong chance of being accepted. It will be handled by the same Associate Editor and set of reviewers.: This paper investigates how users of Ant A-Fu, a medical AI application, evaluate, verify, communicate, and act upon AI-generated health information. Based on semi-structured interviews with 26 sustained users, the study examines how AI-generated health information becomes embedded in health information seeking, clinical encounters, and subsequent healthcare decision-making. The paper aims to contribute an understanding of how users dynamically calibrate trust through multi-source verification, how AI-generated information is selectively introduced into patient–clinician interactions, and how informational authority and responsibility are negotiated when AI and clinicians provide divergent recommendations.\
+I consider the topic important, timely, and relevant to CSCW. The paper draws on rich empirical material, and I found several findings particularly interesting. For example, the study reveals the often invisible work users undertake in managing the visibility and disclosure of AI use in patient–clinician interactions. The discussion of false consensus in multi-source verification is also particularly valuable, as it challenges the intuitive assumption that consulting more sources necessarily leads to better or more appropriately calibrated trust. Overall, I believe the paper has the potential to make a meaningful contribution to CSCW.\
+However, I have concerns regarding the paper’s overall organization, writing, analytical depth, and conceptual development. The authors have collected a considerable amount of rich empirical material, but I do not think the current analysis and discussion fully realize the potential of these data. In particular, the manuscript would benefit from a clearer central conceptual lens that brings the different findings together into a coherent intellectual argument. At present, some sections remain relatively descriptive, the analytical depth and novelty are uneven across the findings, and several strong claims are not yet supported by sufficiently developed analysis. As a result, while I see considerable potential in the empirical study, the manuscript in its current form does not yet translate this empirical richness into an equally strong conceptual contribution. 我认为该研究选题对计算机支持的协同工作（CSCW）领域而言，具备重要意义、时效性与研究价值。论文拥有详实丰富的实证资料，其中有若干研究发现令我颇感兴趣。举例来说，本研究揭示了用户在医患交互过程中，为管控 AI 使用行为的可见性与信息披露所付出的那部分常常被忽视的隐性劳动。文中关于多源核验下 “虚假共识” 的探讨也极具价值，该结论挑战了一种想当然的固有认知：即查阅更多信息源，就必然能够形成更完善、校准更合理的信任。总的来说，我认为本文有潜力为 CSCW 领域产出有价值的研究贡献。
+
+但我对论文的整体架构、行文表述、分析深度以及概念建构仍存有顾虑。作者收集了大量高质量实证素材，但目前的分析与讨论尚未充分挖掘出这批数据的研究潜力。具体而言，稿件亟需一个更加清晰的核心分析视角，将各项研究发现串联为一套逻辑自洽的完整学术论证。当前部分章节仍停留在描述层面，不同研究发现之间的分析深度与创新性参差不齐；部分论断力度较强，但缺少足够充分的分析作为支撑。因此，尽管这项实证研究本身潜力很大，但就稿件目前版本，尚未把丰富的实证素材转化为同等高质量的概念层面研究贡献。
+
+\
+\
+\
+\
+Major Concerns:\
+1\. Lack of a coherent conceptual spine. I found it difficult to identify a sufficiently coherent central idea that organizes these findings into a cumulative argument. The manuscript moves among trust calibration, multi-source verification, selective visibility, coordination work, trilateral patient–AI–physician relationships, epistemic authority, decision-making responsibility, and accountability. These concepts are all relevant, but their relationships remain under-theorized. Consequently, the paper sometimes reads as a sequence of related findings about medical AI use rather than an account of a clearly defined overarching phenomenon.\
+I also found the overall framing of the manuscript somewhat too system-specific. For example, the four RQs somewhat too narrowly centered on Ant A-Fu as a specific system. As a result, especially in the first half, the manuscript sometimes reads more like a user study of Ant A-Fu than an investigation of a broader sociotechnical phenomenon. This sits somewhat uneasily with the later findings and discussion, which make broader claims about patient-facing medical AI, patient–clinician communication, epistemic authority, distributed informational work, and clinical accountability. I encourage the authors to clarify the broader phenomenon that Ant A-Fu serves as an empirical case for, and to establish this framing earlier in the manuscript. Doing so would help align the Introduction, RQs, findings, and discussion, while also making clearer what conceptual insights from this case may travel beyond Ant A-Fu itself.
+
+
+
+1\. 缺少连贯的核心概念主线（coherent conceptual spine）：我很难识别出足够清晰统一的中心思想，能够把各项研究发现组织成层层递进的完整论证。稿件同时涉及信任校准、多源核验、选择性可见性、协调劳动、患者‑AI‑医生三方关系、认知权威、决策责任、问责等诸多概念。这些概念均具备相关性，但概念之间的理论推演与关联分析做得不足。因此，读论文的时候，更像是一组相互有关联的关于医疗 AI 使用的现象罗列，而非围绕某个界定清晰的宏观社会技术现象展开的完整研究。
+
+同时，整篇稿件的整体框架过分绑定特定系统。例如，四个研究问题过于局限于安福（Ant A‑Fu）这一个具体产品。结果就是，稿件前半部分读起来更像是安福这款产品的用户研究，而不是对某一更加宽泛的社会技术现象开展的探究。但论文后半部分的结果与讨论又会面向面向患者的医疗 AI、患医沟通、认知权威、分布式信息劳动、临床问责提出普适性论断，二者之间存在不协调。
+
+我建议作者明确：安福是作为实证案例用来研究哪一个更宏大的现象，并且在论文靠前位置就建立这套分析框架。这样做可以让引言、研究问题、研究结果、讨论部分逻辑对齐，同时清晰说明从这个案例中提炼出的哪些概念洞见可以迁移到安福产品之外的场景。
+
+\
+2\. The Related Work is comprehensive, but it remains relatively broad and descriptive. It covers a wide range of relevant literature, yet many parts provide high-level summaries without engaging deeply with the tensions, limitations, or unresolved questions across these bodies of work. As a result, the section sometimes reads more like an overview of existing research than an argument that progressively establishes a specific conceptual tension that this paper needs to address. I encourage the authors to move beyond cataloguing prior findings and provide a more focused synthesis that identifies where existing perspectives converge, where they fall short, and what remains conceptually unresolved. This would help establish a clearer foundation for the paper’s research questions and claimed contributions.相关工作章节内容全面，但偏宽泛、重描述：该章节覆盖大量相关文献，但很多内容只是高层次概括，没有深入挖掘这批文献内部存在的内在矛盾、局限以及尚未解决的研究缺口。于是这一部分更像是已有研究的综述罗列，而没有逐步推导出本文需要去填补的特定概念层面研究张力。
+
+我建议作者不要只是堆砌前人研究发现，要做更聚焦的整合分析：指出现有研究视角的共识在哪里、短板在哪里，还有哪些概念问题悬而未决。这样才能为本论文的研究问题和研究贡献打下更扎实的基础。\
+\
+3.  For Methods: The sampling strategy and terminology require clearer qualification.By requiring at least two months of A-Fu use, the study excludes short-term or discontinued users and therefore primarily captures trust and verification practices among sustained users. This distinction should be made explicit, particularly when interpreting findings about what engenders trust.\
+In addition, while the recruitment targeted A-Fu users, the manuscript frequently frames and discusses them as “patients.” These categories are not necessarily equivalent, as using A-Fu does not always mean occupying a patient role. The authors should therefore more carefully distinguish between “users” and “patients” and ensure that claims about patients remain within the scope supported by the sample.研究方法：抽样策略与术语需要更明确的限定说明。本研究设置要求受访者至少有两个月安福使用经历，这就排除了短期使用者、已经停用该产品的用户；样本主要捕捉持续使用产品人群的信任与核验行为。这一区别必须明确写明，尤其在解读 “哪些因素催生用户信任” 这类研究发现的时候。另外，本次招募对象是安福使用者，但稿件经常直接把这批受访者统称为 “患者”。这两类群体并不完全等同：使用安福软件，并不代表受访者就一定处于患者身份。作者应当更加审慎区分 “用户” 与 “患者”，所有关于 “患者” 的论断，必须限定在本样本能够支撑的证据范围之内。\
+\
+4\.   Although the study is situated in the context of medical AI, and particularly narrowed to the specific case of Ant A-Fu, I found that several findings are not yet sufficiently differentiated from what might also be observed in general-purpose AI use. I therefore encourage the authors to distinguish more carefully between findings that may reflect general AI-use practices, those specifically shaped by the medical context, and those tied to the particular design and positioning of Ant A-Fu.虽然研究背景是医疗 AI，以afu为具体案例，但部分研究发现没有充分区分：哪些现象同样也会出现在通用大模型的使用场景中
+
+我建议作者做更细致的区分：①仅反映通用 AI 使用习惯的发现；②由医疗场景特殊性塑造的发现；③和afu本身的产品设计、产品定位强绑定的发现。\
+\
+5\. The Findings contain rich empirical material, but I think they could benefit from stronger analytical synthesis. At present, the organization closely follows the four RQs, which makes the findings somewhat procedural and, at times, descriptive. I also found the analytical depth and novelty somewhat uneven across the Findings. Some findings, such as false consensus in multi-source verification, selective disclosure and translation of AI-generated information, and the tension between expanded epistemic participation and clinical accountability, offer relatively strong and distinctive analytical insights. In contrast, other findings—such as users cross-checking AI outputs, relying on professional presentation as a trust cue, or becoming more cautious in higher-risk situations—remain relatively descriptive and are more consistent with observations already established in the existing literature. As a result, the different Findings currently carry somewhat uneven conceptual weight. I encourage the authors to reconsider the balance and hierarchy among the findings, giving greater analytical prominence to the more distinctive insights while either further developing the more descriptive findings or using them as supporting evidence for a broader argument rather than presenting them as contributions of equivalent weight.研究结果部分实证素材很丰富，但还需要更强的分析整合，目前结果章节结构严格跟着 4 个研究问题排布，行文流程化，部分内容仍停留在现象描述层面；不同研究发现的分析深度、创新性参差不齐。
+
+其中一部分发现，例如多源核验中的虚假共识、AI 生成信息的选择性披露与转译、认知参与扩张和临床问责之间的矛盾，拥有较强、有辨识度的分析洞见。
+
+与之相对，另一些发现，例如用户会交叉核对 AI 输出、将专业外观作为信任线索、高风险场景下会变得更加谨慎，偏向描述性，在已有文献中已经有相关观察。
+
+这就造成不同研究发现的概念分量轻重不均。
+
+建议作者重新考量各项发现之间的权重与层级：给那些更有独特性的洞见分配更多分析篇幅；对于偏描述性的发现，要么进一步深度挖掘，要么将其作为支撑整体论证的佐证材料，不要把它们当成同等重要的独立研究贡献。\
+\
+6\. Some analytical statements are stronger than the evidence presented and could be worded more cautiously. For example, “Prior errors reshaped later practices” characterizes the following case as an “error,” although the evidence only establishes that A-Fu recommended an unfamiliar and expensive medication. It is unclear whether the recommendation was medically incorrect, inappropriate for the participant, or simply perceived as problematic. I encourage the authors to use more precise language and ensure that the strength of analytical claims matches the evidence provided.部分分析论断力度强，但证据支撑有限，措辞可以更加保守
+
+举例：原文 “Prior errors reshaped later practices（过往错误重塑了后续行为）”，文中把案例事件定性为 “错误”，然而证据仅仅是安福给出了一款陌生高价药物的推荐。现有材料无法判断这条推荐属于医学上的错误、不适合该受试者，还是仅仅被受试者主观感知为有问题。建议作者使用更精准的表述，保证分析主张的力度和呈现的证据相匹配。\
+\
+7.  The Discussion needs stronger conceptual synthesis and theoretical development. Much of the Discussion follows a pattern of restating findings and then noting that previous studies have reported similar or related observations. While useful for positioning the findings, this produces relatively limited conceptual development: it remains unclear how the findings collectively extend, challenge, qualify, or reorganize existing understandings. Section 5.1 is particularly narrow in this respect. Much of it reiterates findings about trust formation and calibration and relates them to prior literature, rather than developing a new analytical argument.\
+\
+The manuscript makes several relatively strong claims, including those implied by the title, but the current analysis does not always provide sufficient conceptual depth to substantiate them. For example, the conceptual novelty of Section 5.2.1, “The trilateral relationship in clinical workflow,” needs to be more convincingly established.\*\* The introduction of AI as an additional actor or information source in patient–clinician interaction does not by itself constitute a strong conceptual contribution. What seems potentially more important is how this changes the organization of clinical communication, epistemic authority, coordination work, and accountability. The argumentative progression of this subsection could also be strengthened: it begins with the broad claim of a trilateral relationship but subsequently disperses into individual observations, rather than progressively building and substantiating the conceptual argument. As a result, “trilateral relationship” currently functions more as a descriptive label than as a fully developed analytical concept.
+
+讨论章节需要进一步的概念整合与理论拓展
+
+讨论很多段落的写作模式是：复述研究结果，然后指出前人文献也有相似或者相关观察。这种写法可以帮助定位本研究在领域中的位置，但带来的概念层面增益有限；读者很难看明白：综合全部结果，本文究竟如何拓展、挑战、修正或是重构现有的认知。5.1 小节这一问题尤其突出，大量内容只是复述信任形成、信任校准相关结果，再和前人文献做对照，没有推进新的分析论证。稿件提出若干力度较强的主张（包括标题所暗含的观点），但现有分析并没有提供足够的概念深度去支撑这些观点。
+
+
+
+以 5.2.1 小节《临床工作流中的三方关系》为例，它的概念新颖性还需要更有说服力的论证。
+
+仅仅指出患‑医交互中新增 AI 这一行动者 / 信息来源，本身并不构成有力的概念贡献。真正有价值的是：这一变化如何重塑临床沟通组织方式、认知权威分配、协调劳动以及问责机制。
+
+该小节论证推进也有待加强：开篇抛出 “三方关系” 这一大论断，后续却分散到一个个零散观察，没有逐步构建、夯实这套概念论证。目前 “三方关系” 更多只是一个描述性标签，而不是一个充分发展的分析性概念。
+
+\
+\
+\
+8.The Design Implications section contains some interesting directions, but the level of development and empirical grounding is uneven across the subsections. Section 5.3.1 identifies a meaningful problem emerging from the findings and presents an interesting perspective, but it does not yet sufficiently explore what concrete, feasible technical or interaction design mechanisms could address it. I encourage the authors to develop the design space further. For example, by specifying how the proposed support could be operationalized in an actual patient-facing AI system, what information or system capabilities would be required. This would help move the section from a general design aspiration toward a more substantive and actionable design implication.\
+In contrast, I have concerns about Sections 5.3.3 and 5.3.4 regarding their empirical grounding. I found limited evidence in the preceding Findings that directly motivates these implications, and the manuscript does not clearly trace how these design recommendations emerge from participants’ experiences or the paper’s central analytical insights. Consequently, these sections feel somewhat detached from the main empirical narrative and, at times, read more like general recommendations for medical AI than implications specifically derived from this study. I encourage the authors either to establish a clearer connection between these implications and the empirical findings, or to reconsider whether they fall within the scope of this paper. 设计启示章节有一些有意思的方向，但各个子部分分析深度、实证支撑程度参差不齐
+
+5.3.1 小节从研究结果提炼出有现实意义的问题，视角有价值，但没有充分探讨：到底有哪些具体、可落地的技术与交互设计机制可以用来解决该问题。建议进一步拓展设计空间，例如说明这些设想如何在一款面向患者的 AI 系统中落地实现，需要哪些信息、系统能力。这样可以把内容从泛泛的设计愿景，变成更扎实、可执行的设计启示。
+
+与之相对，我对 5.3.3、5.3.4 小节的实证支撑存在顾虑。在前面的研究结果中，几乎找不到可以直接推导出这两条设计建议的证据；稿件也没有清晰说明这些设计建议是如何从受访者经历、论文核心分析洞见推导而来。这就使得这两节和主要实证叙事存在割裂，读起来更像是医疗 AI 领域的通用建议，而不是本研究专属产出的设计启示。
+
+建议作者：要么把这些启示和实证发现建立清晰的推导关联，要么重新评估这部分内容是否属于本文的讨论范畴。
+
+
+
+\
+\
+\
+Reviewer: 2\
+\
+Recommendation: Major Revision\
+\
+Comments:\
+(There are no comments.)\
+\
+Additional Questions:\
+By checking the box, you confirm that you are in compliance of ACM Peer Review Policy (https\://www\.acm.org/publications/policies/peer-review) and its accompanying FAQs (https\://www\.acm.org/publications/policies/peer-review-faq).: No\
+\
+Confidence: Confident (I am knowledgeable\
+in the area)\
+\
+\&lt;strong&gt;Review:\&lt;/strong&gt; Write your review of the submission here. Your review should address all or at least most of the questions below. In the past, strong CSCW reviews have often addressed these explicitly in the review itself: (1) What is the intended contribution of the paper? (2) How important / novel is the intended contribution of the paper? (3) How well does the paper execute this contribution? (4) How well does the paper execute this contribution? (5) Are there specific weaknesses that would undermine confidence in the paper’s claims or results? (6) Are there other strengths of the paper (apart from the identified contribution) that should be considered in evaluating it for CSCW? \&lt;p&gt;\
+\
+Additionally, if you select Minor Revision, Major Revision or Accept, please indicate the changes the authors should make as follows: (1) Accept: Clearly specify any small changes such as typos that should be taken care of before paper publication. (2) Minor Revision: Indicate the changes that the authors should make before their paper is published. Only the Associate Editor will re-review the minor revision. (3) Major Revision: Clearly specify the changes that the authors should make. If the authors make these changes, the paper should have a strong chance of being accepted. It will be handled by the same Associate Editor and set of reviewers.: 
+
+
+
+This paper reports on the use of a patient-facing AI application, namely Ant A-Fu, by everyday patients. Of particular interest in this paper is the case of misalignment between expert advice and AI interpretations. Methodologically, the paper reports on 26 semi-structured interviews with Ant A-Fu users. This is a timely topic, and aligns closely with ongoing research within the broader HCI community. The paper is well written and provides a clear motivation and an introduction to the problem space under investigation.本文研究普通患者使用面向患者的人工智能应用 —— 安福（Ant A‑Fu）的情况。其中特别值得关注的是专家建议与 AI 解读二者之间出现信息错位的情形。在研究方法层面，本文基于对 26 名安福用户开展的半结构化访谈。该选题具备时效性，与更广泛的人机交互领域正在开展的研究高度契合。文章行文流畅，清晰阐明了研究动机，并对所探究的问题领域做了介绍。\
+\
+The method is introduced clearly and contains all necessary details. Perhaps some further clarification is needed to describe the role of clinical expert participants in the interview. Were they asked different questions than the other participants? 研究方法部分介绍清晰，包含全部必要细节。或许还需要进一步说明临床专家受访者在访谈当中的角色。向他们提出的访谈问题是否和其他受访者有所不同？
+
+\
+\
+For readers unfamiliar with Ant A-Fu, the paper provides insufficient detail on the application and its features. A future revision of this work should provide a more detailed description to enable more accurate interpretation of the results.对于并不了解安福这款应用的读者，稿件对该软件及其功能特性的介绍不够充分。稿件修订版应当提供更为详尽的描述，使读者能够更加准确地解读研究结果。\
+\
+Reporting of results is in line with typical reporting for qualitative work. I am slightly uncertain about the framing of some of the results. For example, on line 472: “through which AI-generated health information became askable, usable, sayable, and actionable”. It is not clear to me what is the meaning of the words ‘askable’ and ‘sayable’, and also the phrase ‘usable’ is ambigious in this context. These verbs are subsequently repeated through other parts of the results section.结果部分的报告范式符合定性研究的通用写作规范。但我对部分结果的表述框架存有一些疑问。例如，第 472 行：“through which AI‑generated health information became askable, usable, sayable, and actionable”。askable与sayable二词含义不明，同时usable在此语境下也存在歧义。这几个动词还会在结果章节的其他位置反复出现。\
+\
+Figure 3 (selective visibility of AI-generated health information) labels the x-axis for risk as “risk of physician-patient interaction”. What is meant by this? None of the results text talks about risks in the physician-patient interaction. This makes the overall meaning of the figure unclear and raises questions about its intended meaning (or creation). I have similar issues with Figure 4; in which the direction (as well as dashed/full line styling) of the arrows appears arbitrary and disconnected from the text in the results section.图 3（AI 生成健康信息的选择性可见性）将风险的 X 轴标注为 “risk of physician‑patient interaction（医患交互的风险）”。该表述指的是什么？正文结果文本完全没有探讨医患交互层面的各类风险，这就造成整张图整体含义模糊，让人对该图的设计意图与绘制逻辑产生疑问。图 4 也存在同类问题：图中箭头的指向，以及虚线、实线的样式设定看起来较为随意，和结果章节的正文文本相互脱节。\
+\
+While the paper provides an account of a healthcare information-seeking practice that is largely disconnected from existing infrastructure, prior work has explored how AI technologies can also integrate into existing healthcare infrastructures and needs (see e.g. M. Samiee et al., DIS 2025, &quot;General Practitioners’ Perspectives on a Pre-Consultation Chatbot for Shared Decision-Making&quot;). Such a perspective could strengthen the reflections on future uptake of AI technology in a healthcare context.本文描述了一套很大程度独立于现有医疗体系的健康信息获取行为，但已有相关研究探讨过人工智能技术如何融入既有的医疗基础设施，如何匹配现实需求（例如参见 M. Samiee 等人，DIS 2025，《General Practitioners’ Perspectives on a Pre‑Consultation Chatbot for Shared Decision‑Making》）。引入这类研究视角，能够强化文章对于人工智能技术在医疗场景下未来落地应用的思考。
+
+\
+Clarifications\
+Line 75: “China has 365 million online healthcare users”. What is meant with online healthcare user?需要澄清之处
+
+第 75 行：“China has 365 million online healthcare users”。此处 “online healthcare users（互联网医疗用户）” 的定义具体指什么？
+
+\
+\
+\
+Reviewer: 3\
+\
+Recommendation: Major Revision\
+\
+Comments:\
+(There are no comments.)\
+\
+Additional Questions:\
+By checking the box, you confirm that you are in compliance of ACM Peer Review Policy (https\://www\.acm.org/publications/policies/peer-review) and its accompanying FAQs (https\://www\.acm.org/publications/policies/peer-review-faq).: No\
+\
+Confidence: Very confident (I consider myself an expert in the area)\
+\
+\&lt;strong&gt;Review:\&lt;/strong&gt; Write your review of the submission here. Your review should address all or at least most of the questions below. In the past, strong CSCW reviews have often addressed these explicitly in the review itself: (1) What is the intended contribution of the paper? (2) How important / novel is the intended contribution of the paper? (3) How well does the paper execute this contribution? (4) How well does the paper execute this contribution? (5) Are there specific weaknesses that would undermine confidence in the paper’s claims or results? (6) Are there other strengths of the paper (apart from the identified contribution) that should be considered in evaluating it for CSCW? \&lt;p&gt;\
+\
+Additionally, if you select Minor Revision, Major Revision or Accept, please indicate the changes the authors should make as follows: (1) Accept: Clearly specify any small changes such as typos that should be taken care of before paper publication. (2) Minor Revision: Indicate the changes that the authors should make before their paper is published. Only the Associate Editor will re-review the minor revision. (3) Major Revision: Clearly specify the changes that the authors should make. If the authors make these changes, the paper should have a strong chance of being accepted. It will be handled by the same Associate Editor and set of reviewers.: This paper investigates how patients and individuals with healthcare backgrounds interact with Ant A-Fu, a patient-facing generative AI medical application in China. Through semi-structured interviews with 26 participants (19 lay patients and 7 healthcare-related professionals), the authors explore how users build credibility, cross-verify AI-generated information across online and offline channels, manage the visibility and framing of AI advice during clinical consultations, and calibrate trust and decision-making when facing disagreements between AI models and human doctors. It addresses a timely and central topic for CSCW and human-centered health informatics: the re-articulation of collaborative care workflows and power relationships as generative AI enters the patient–clinician dynamic. However, as it currently stands, the manuscript has some major issues it needs to address before it can be publication ready:本文探究患者以及具备医疗背景的个体如何与安福（Ant A‑Fu）这款中国面向患者的生成式 AI 医疗应用开展交互。研究对 26 名受访者开展半结构化访谈，包含 19 名普通患者、7 名医疗相关从业者。作者探究用户如何建立可信度、跨线上线下多渠道交叉核验 AI 生成信息、在临床问诊过程中管控 AI 建议的可见度与表述方式，以及当 AI 大模型与人类医生的观点产生分歧时，用户如何校准信任并做出决策。本研究面向 CSCW 与人因健康信息学领域一个具备时效性的核心议题：生成式 AI 介入医患交互场景之后，协作诊疗工作流与权力关系被重新诠释。但就当前稿件版本，仍存在若干重大问题，尚达不到发表标准：\
+\
+Major issues:\
+\
+1\. Delineation and Analytical Treatment of Participant Cohorts -- In Section 3.2, the methodology explicitly justifies recruiting two separate groups (19 lay users and 7 healthcare professionals) to explore both expert evaluation of AI and clinicians&#x27; experiences managing AI-equipped patients.  In Section 4, however, these cohorts are frequently conflated as generic &quot;users,&quot; and healthcare professionals (H1–H7) are predominantly cited as ordinary consumer users or family caregivers without consistent analytical distinction.  Required Revision: Clearly distinguish when healthcare participants are speaking as practitioners managing patient communication versus consumers/caregivers navigating personal care. Explicitly highlight comparative insights showing how formal medical expertise alters mental models, error detection, and verification behaviors compared to lay users.  受访者分组的界定与分析处理在 3.2 方法章节，文中明确说明招募两组独立受访者（19 名普通用户、7 名医疗从业者），用以同时考察专家对 AI 的评价，以及医生面对使用 AI 工具的患者时的实际经历。然而在第 4 章结果部分，这两组样本经常被混为笼统的 “用户”；医疗背景受访者（H1‑H7）大多被引用为普通消费者或家属照护者，没有在分析层面做出持续区分。
+
+要求修改：明确区分医疗背景受访者发言的两种身份：①作为执业从业者，处理患者沟通；②作为普通消费者 / 照护者，处理个人就医事务。明确呈现对比洞见，阐明正式医学专业知识会如何改变人们的认知心理模型、错误识别方式以及信息核验行为，并与普通用户做对照。
+
+
+
+\
+2\. Clarification and Grounding of Core Analytical Concepts -- The Four Thresholds: The authors introduce four situated thresholds (askability, usability, sayability, and actionability) in Section 3.3 and Section 4 as their primary interpretive framework. However, these terms are never formally defined or explicitly delineated, leaving the reader to infer their operational boundaries.  Epistemic Authority: The manuscript frequently invokes the concept of &quot;negotiating epistemic authority&quot; (Abstract, Section 1, Section 2.3), yet never formally operationalizes what epistemic authority means within this sociotechnical context.  Required Revision: Provide concise operational definitions for askable, usable, sayable, and actionable at the beginning of the findings. Explicitly define and ground &quot;epistemic authority&quot; in established CSCW/HCI and social science literature.  
+
+核心分析概念的澄清与实证锚定 —— 四大阈值 作者在 3.3 节与第 4 章，将四个情境阈值（askability、usability、sayability、actionability）作为主要解读框架。但这些术语从未给出正式定义，也没有清晰划定操作边界，只能留给读者自行推断。认知权威（Epistemic Authority）：稿件反复使用 “协商认知权威” 这一概念（摘要、第 1 章、2.3 节），却从未在本社会技术研究语境下，对认知权威做出可操作化界定。
+
+要求修改：在结果章节开篇，为 askable、usable、sayable、actionability 提供简洁、可操作的定义；结合已有的 CSCW/HCI 以及社会科学文献，对 “认知权威” 给出明确定义并完成理论锚定。
+
+\
+3\. Restructuring Section 5.1 and Deepening Theoretical Synthesis of Power Dynamics -- Empirical Redundancy in Discussion: Section 5.1 reads primarily like a reiteration of the Results section—re-describing how users verify and matching specific behaviors to literature point-by-point—rather than stepping back to synthesize higher-level theoretical takeaways.  Missing Power &amp; Hierarchy Lens in Discussion: While the Introduction and Results heavily emphasize power asymmetries, doctor deference, and authority negotiation, Section 5 flattens these dynamics into a generic &quot;trilateral relationship in clinical workflow&quot; centered around operational convenience and workload.  Required Revision: Condense the descriptive summaries in Section 5.1. Elevate Section 5.2 by deeply theorizing the paradox of authority versus accountability: why AI expands patients&#x27; informational agency while the total concentration of legal/clinical accountability on human doctors preserves traditional clinical hierarchies.  重构 5.1 小节，深化权力动态的理论综合讨论部分存在实证内容冗余：5.1 小节更像是对结果章节的复述 —— 重新描述用户的核验行为，并且逐条将特定行为和文献做对应，而非退一步提炼更高层级的理论结论。
+
+讨论部分缺失权力与层级分析视角：尽管引言和结果大量强调权力不对等、对医生的顺从、权威协商，但第 5 章把这些动态扁平化处理，只聚焦通用 “临床工作流中的三方关系”，只从操作便利性和工作量角度展开。
+
+要求修改：
+
+压缩 5.1 节当中描述性复述的内容；提升 5.2 小节的理论深度，深入对权威‑问责二者之间的悖论展开理论化分析：为何 AI 拓展了患者获取信息的能动性，但法律与临床问责全部由人类医生承担，由此使得传统临床层级制度得以保留。
+
+
+
+
+
+
+
+\
+4\. Methodological Reflexivity and Ethics ReportingRecall Bias &amp; Lack of Artifact-Elicitation -- The study relies entirely on retrospective accounts without using backend logs, chat transcripts, or screen-recording walkthroughs. Given how easily medical details are misremembered, the authors should explicitly discuss the limitations of retrospective interview data in assessing trust calibration.  Ethics Oversight: Section 3.4 outlines consent and anonymization procedures but does not explicitly document formal Institutional Review Board (IRB) approval, an ethics committee clearance protocol number, or institutional exemption status.  Required Revision: Clarify the institutional ethics review status in Section 3.4 and expand Section 5.4 (Limitations) to reflect on the trade-offs of relying solely on retrospective recall.
+
+
+
+方法论反思以及伦理报告
+
+回忆偏差与缺少实物诱发素材：本研究完全依赖受访者回溯式口述资料，没有后端日志、聊天记录、屏幕录制的引导式访谈素材。考虑到医疗相关细节很容易发生记忆偏差，作者应当明确讨论，单纯依靠回溯访谈开展信任校准相关研究所存在的局限。
+
+伦理审查：3.4 节描述了知情同意与匿名化流程，但并未写明正式的机构伦理审查委员会（IRB）审批、伦理委员会审批协议编号或是机构豁免状态。
+
+要求修改：
+
+在 3.4 节补充机构伦理审查状态；扩充 5.4 局限性章节，探讨完全依赖受访者回溯回忆所带来的利弊权衡。
+
+\
+Minor issues:\
+1\. Add a brief footnote or inline explanation clarifying that Xiaohongshu (also known internationally as RED / RedNote) is a major lifestyle and social media platform in China. 增加简短脚注或者行内说明，解释小红书（海外版本名称为 RED / RedNote）是中国主流生活方式社交媒体平台。
+
+2\. Rephrase the abstract’s opening claims regarding false self-diagnoses and incorrect treatments so that assertions are framed within the empirical scope of the study rather than as unbacked generalizations. 改写摘要开头关于错误自我诊断、不当治疗的表述，让论断限定在本研究的实证范围之内，不要作为无证据支撑的泛化结论。
+
+3\. Avoid collapsing all participants into a single &quot;users&quot; category immediately after distinguishing lay patients from medical professionals.在已经区分普通患者与医疗从业者样本之后，不要再直接把全部受访者笼统归为 “用户” 这一个类别。
+
+ 4. Expand briefly on how the Chinese institutional context (e.g., short consultation windows, tertiary hospital tiering, cultural deference) specifically shapes the &quot;selective visibility&quot; strategies observed.简要拓展中国本土制度背景带来的影响（例如问诊时长较短、三甲医院分级体系、文化层面对医生的顺从心理），阐明这些背景如何塑造本研究观察到的选择性可见性策略。
+</pre></body></html>
